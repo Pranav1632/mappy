@@ -1,7 +1,4 @@
 
-
-# Create README.md and .gitignore in one go
-cat > README.md << 'EOF'
 # Mappy — MERN Map with Phone OTP Authentication
 
 **One-line:** A mobile-friendly MERN app where users sign in with phone OTP (Twilio Verify / test mode) and access a protected Leaflet + OpenStreetMap map showing user location and nearby markers.
@@ -190,12 +187,6 @@ Thumbs.db
 .AppleDouble
 .LSOverride
 
-# yarn
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/patches
 
 # mongo, redis local files (if any)
 dump/
